@@ -5,21 +5,93 @@
     <title>Cursos 2020</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
     <!-- css style -->
+    <link rel="stylesheet" href="assets/css/main.css">
   </head>
   <body>
-    <nav>
-
+    <nav class="navbar">
+      <div class="navbar__container">
+        <div class="navbar__logo">
+          <img src="assets/img/logo.svg" alt="logo">
+        </div>
+        
+        <ul class="navbar__list">
+          <li><a class="navbar__item" href="#">Acerca de</a></li>
+          <li><a class="navbar__item" href="#"></a>Cursos</li>
+          <li><a class="navbar__item" href="#"></a>Precios</li>
+        </ul>
+        
+        <div class="navbar__toggler">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
     </nav>
-    <header>
-
+    <header class="header">
+      <div class="hero-section">
+        <img class="hero-section__img" src="" alt="">
+      </div>
     </header>
-    <main>
-
+    <main class="main row">
+      <section class="section col-12 col-sm-6 col-lg-6">
+        <article class="section__article">
+          <div class="article__img">
+            <img src="assets/img/html-y-cssb-.jpg" alt="">
+          </div>
+          <h2 class="article__title">HTML y CSS para principiantes.</h2>
+          <p class="article__description">HTML y CSS son dos herramientas para dar inicio en el mundo del desarrollo web. Por lo tanto, en este curso aprenderás todo sobre HTML y CSS, desde lo más básico hasta un nivel intermedio, logrando desarrollar tu primera página web responsiva, sin la necesidad de aplicar librerías externas para CSS.</p>
+          <h3 class="article__instructor">Instructor: Manuel González</h3>
+        </article>
+        <article class="section__article">
+          <div class="article__img">
+            <img src="assets/img/sass.png" alt="">
+          </div>
+          <h2 class="article__title">Estilos con SASS.</h2>
+          <p class="article__description">SASS es una herramienta importante hoy en día para todo desarrollador web, ya que permite crear estilos más ordenados, eficientes y con menos líneas de código. Por ello, en este curso aprenderás todo lo necesario para crear hojas de estilos desde la sintaxis de SCSS, implementando técnicas propias de SASS.</p>
+          <h3 class="article__instructor">Instructor: Manuel González</h3>
+        </article>
+      </section>
+      <section class="section col-12 col-sm-6 col-lg-6">
+        <article class="section__about">
+          <div class="about__img">
+            <img src="assets/img/web-development.png" alt="">
+          </div>
+          <h1 class="about__title">CURSOS 2020 LTDA</h1>
+          <p class="about__description">Cursos de 2020 Ltda, es una empresa especialista en capacitaciones de personal en Desarrollo Web. Partiendo desde lo más básico de HTML y CSS, hasta lo más complejo con SASS y JavaScript</p>
+          <button class="button">Más Cursos</button>
+          <ul>
+            <li><a class="about__course" href="">Analítica Web (3)</a></li>
+            <li><a class="about__course" href="">Diseño Web (4)</a></li>
+            <li><a class="about__course" href="">Desarrollo BackEnd (9)</a></li>
+            <li><a class="about__course" href="">Seguridad Informática (14)</a></li>
+            <li><a class="about__course" href="">Social Media (7)</a></li>
+            <li><a class="about__course" href="">SEO (8)</a></li>
+            <li><a class="about__course" href="">UI/UX (3)</a></li>
+            <li><a class="about__course" href="">JavaScript (5)</a></li>
+            <li><a class="about__course" href="">VueJs (1)</a></li>
+          </ul>
+          <div class="about__animation"></div>
+        </article>
+      </section>
     </main>
-    <footer>
-      
+    <footer class="footer">
+      <div class="footer__rights">
+        <p>&copy; 2021 - Todos los derechos reservados</p>
+      </div>
+      <div class="footer__legal">
+        <ul>
+          <li><a class="footer__link" href="#">Legal</a></li>
+          <li><a class="footer__link" href="#">Sobre Anuncios</a></li>
+          <li><form class="footer__form" action="index.html" method="post">
+            <input class="footer__input" type="email" name="" value="">
+            <button class="footer__button" type="submit" name="button">Enviar</button>
+          </form></li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
